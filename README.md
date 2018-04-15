@@ -1,8 +1,19 @@
 
-# Mean Contactlist Angular2
+# MEAN FULL STACK SCHOOLING TOOLS
 
-Contact List is a RESTful API server and web application built with the MEAN (Angular 2) stack. It is a simple example that aims to concisely demonstrate basic MEAN and REST architecture. You can find the full tutorial here: https://devcenter.heroku.com/articles/mean-apps-restful-api.
+Schooling Tool is a RESTful API server and web application built with the MEAN (Angular 2) stack. It has below features
 
-You can deploy a live copy of this application to Heroku with the button below.
+1) Polling
+2) New Posting
+3) Dragon
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/chrisckchang/mean-contactlist-angular2)
+
+Mongodb:
+
+#LOGIN LOCAL MONGODB by robomongo
+mongo
+#Create user wxadmin
+use wxpro;
+db.createUser({ user: 'wxadmin', pwd: 'wxadmin', roles: ['dbAdmin', 'readWrite']});
+#Exit
+exit
